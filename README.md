@@ -34,3 +34,81 @@ Verified Source Metadata
 | Authentication       |                    JWT |
 | Document access      |             Role-based |
 | Audit logging        |            Implemented |
+
+
+Tech Used :
+
+Backend :
+Python
+FastAPI
+Uvicorn
+
+AI / RAG:
+Llama 3.2 3B
+Ollama
+Sentence Transformers
+all-MiniLM-L6-v2
+
+Database:
+PostgreSQL
+pgvector
+
+Security:
+JWT
+Role-Based Access Control (RBAC)
+Document-level authorization
+Audit logging
+Password hashing
+
+Document Processing:
+PDF extraction
+Recursive text splitting
+Vector embeddings
+
+Development:
+Docker
+Docker Compose
+Git
+GitHub
+
+
+PROJECT STRUCTURE:
+
+SecureRAG/
+│
+├── app/
+│   │
+│   ├── api/
+│   │
+│   ├── generation/
+│   │   └── llm.py
+│   │
+│   ├── ingestion/
+│   │   ├── chunker.py
+│   │   ├── document_service.py
+│   │   ├── embedder.py
+│   │   ├── enterprise_ingest.py
+│   │   └── loader.py
+│   │
+│   ├── rag/
+│   │   ├── pipeline.py
+│   │   └── secure_pipeline.py
+│   │
+│   ├── retrieval/
+│   │   ├── secure_search.py
+│   │   └── citations.py
+│   │
+│   ├── security/
+│   │   ├── auth.py
+│   │   ├── authorization.py
+│   │   ├── audit.py
+│   │   └── setup_demo_users.py
+│   │
+│   ├── database.py
+│   ├── main.py
+│   └── setup_database.py
+│
+├── data/
+├── docker-compose.yml
+├── .gitignore
+└── README.md
