@@ -39,36 +39,36 @@ Verified Source Metadata
 Tech Used :
 
 Backend :
-Python
-FastAPI
-Uvicorn
+Python,
+FastAPI,
+Uvicorn,
 
 AI / RAG:
-Llama 3.2 3B
-Ollama
-Sentence Transformers
-all-MiniLM-L6-v2
+Llama 3.2 3B,
+Ollama,
+Sentence Transformers,
+all-MiniLM-L6-v2,
 
 Database:
-PostgreSQL
-pgvector
+PostgreSQL,
+pgvector,
 
 Security:
-JWT
-Role-Based Access Control (RBAC)
-Document-level authorization
-Audit logging
-Password hashing
+JWT,
+RBAC,
+Document authorization,
+Audit logging,
+Password hashing,
 
 Document Processing:
-PDF extraction
-Recursive text splitting
-Vector embeddings
+PDF extraction,
+Recursive text splitting,
+Vector embeddings,
 
 Development:
-Docker
-Docker Compose
-Git
+Docker,
+Docker Compose,
+Git,
 GitHub
 
 
